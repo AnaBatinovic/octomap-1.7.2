@@ -55,8 +55,7 @@
 
 using namespace std;
 using namespace octomap;
-
-typedef unsigned char byte;
+typedef unsigned char my_byte;
 
 int main(int argc, char **argv)
 {
@@ -227,8 +226,8 @@ int main(int argc, char **argv)
         cout.flush();
             
         // read voxel data
-        byte value;
-        byte count;
+        my_byte value;
+        my_byte count;
         int index = 0;
         int end_index = 0;
         unsigned nr_voxels = 0;
